@@ -57,6 +57,9 @@
 /// Defaults to NO.
 @property(nonatomic, assign, readwrite) BOOL disableBlurWhenBackgrounding;
 
+///If YES, enable dark mode support.
+@property(nonatomic, assign, readwrite) BOOL isDarkModeSupportEnabled;
+
 /// Alter the card guide (bracket) color. Opaque colors recommended.
 /// Defaults to nil; if nil, will use card.io green.
 @property(nonatomic, retain, readwrite) UIColor *guideColor;

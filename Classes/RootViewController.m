@@ -100,6 +100,7 @@
   if (self.modalPresentationStyleSegment) {
     paymentVC.modalPresentationStyle = (UIModalPresentationStyle)self.modalPresentationStyleSegment.selectedSegmentIndex;
   }
+	paymentVC.modalPresentationStyle = UIModalPresentationFullScreen;
   
   [self presentViewController:paymentVC animated:YES completion:nil];
 }
